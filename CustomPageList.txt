@@ -1,0 +1,38 @@
+Login Page
+ |- Home page - show two cloum, sn management and project management
+ |- Custom profile  - edit/save data base
+ |- Consuming log
+	|- SN List - show all sn list from db
+	|- New SN Apply - send new sn request 
+ |- Program management
+	|- Project list - show all project list from db
+	|- New Project Apply - send new project request 
+ |- Download - file list/search and filter 
+ |- Bug report
+ 
+ 
+ schedule :
+5/6 login / connect db (v)
+5/8 base user home page frame (v)
+5/9 all user empty page include fram
+5/11 user home page layout / get infrom from db
+5/13 user profile edit / save to db
+5/15 SN list/Project list
+5/17 SN apply/ new project apply
+5/18 mail send test
+5/19 download page/bug report
+
+會員註冊 -> 根據不同區域寄送給不同業務 -> 自動寄出信件通知業務 -> 後台業務審核 -> 審核結果通知會員
+會員可以設定個人基本資料
+會員可以在檔案下載 -> 根據兩個下拉選單選則檔案進行下載、檔案格式如果是youtube的話直接彈跳播放
+會員可以新增產品SN序號 -> 自動寄信通知作業人員審核 -> 作業人員根據SN填入保固時間
+會員可以對於即將到期的SN申請展延 ->自動寄信通知作業人員審核 -> 作業人員展延日期
+會員可以新增專案 -> 填入專案需求資料 -> 自動寄信通知作業人員   -> 作業人員審核專案 -> 通知會員結果
+
+員工帳號：非為 業物員、管理員 二種角色
+管理員可以設定業務員負責哪個區域
+業務員收到信件後審核自己區域的會員 -> 審核完畢自動通知註冊者是否成功
+業務員只可以看到自己的該區域的會員
+管理員可以 新增、修改、刪除檔案資料，檔案資料會有兩種分類設定，檔案目前為PDF、Word、youtube
+管理員審核會員新增或是展延的產品SN，並給予保固到期日期
+管理員會收到會員專案的申請通知，根據內容回覆是否申請成功通知．
